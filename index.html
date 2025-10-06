@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSICA MIGUEL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-theme="dark">
+
+    <div class="container text-center mt-3 mb-3 py-3 bg-primary rounded">
+        <h1 class="text-light mt-3">VERY GOOD SONGS BY MIGUEL</h1>
+        <h4 class="text-light mt-3">SELECT SONG</h4>
+
+        <select id="mySelect" class="form-select w-50 mx-auto mt-2">
+        </select>
+
+        <button class="btn btn-danger mt-3 w-50" id="boton">VER VIDEO</button>
+
+        <div>
+            <img id="imagen" class="my-4" width="8%" src="mec1.jpg">
+        </div>
+
+        <!--
+            VIDEO RESPONSIVO EN IFRAME
+            <div class="ratio ratio-16x9">
+            </div>
+        -->
+
+        <iframe id="myIframe" width="640" height="480" src="https://www.youtube.com/embed/ZtVbh9rLSPA">
+        </iframe>
+
+        <h6 class="mt-3 text-light">
+            Si no te gusta alguna canción, sos de otro planeta
+        </h6>
+        <h6 class="text-light">
+            (2025) - Miguel Carrizo
+        </h6>
+    </div>
+
+    <div>
+	<iframe width="1191" height="670" src="https://www.youtube.com/embed/ZtVbh9rLSPA?list=RDZtVbh9rLSPA" title="Lady Gaga   Million Reasons The Howard Stern Show 2016 10 24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
