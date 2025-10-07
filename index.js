@@ -3,6 +3,7 @@ const cargarVideos = () => {
     .then((res) => res.json())
     .then((data) => {
       let html = "";
+      html += `<option value='NO'>SELECT SONG</option>`;
       data.forEach((reg) => {
         html += `<option value='${reg.url}'>${reg.tema}</option>`;
       });
@@ -15,8 +16,12 @@ const cargarVideos = () => {
 };
 
 const verVideo = () => {
+  
   let url = document.getElementById("mySelect").value;
-  document.getElementById("myIframe").src=url + '?autoplay=1'
+  if(url != 'NO') {
+    document.getElementById("myIframe").src=url + '?autoplay=1'  
+  }
+  
 };
 
 const imagenOver = () => {
