@@ -4,8 +4,16 @@
         "url": "https://www.youtube.com/embed/ZtVbh9rLSPA"
     },
     {
+        "tema": "Ordinary Love",
+        "url": "https://www.youtube.com/embed/Fum3g86zUPc"
+    },
+    {
         "tema": "Always Remember Us This Way",
         "url": "https://www.youtube.com/embed/6JR8DOnRZcE"
+    },
+    {
+        "tema": "Jullie",
+        "url": "https://www.youtube.com/embed/1klKhwAa3jY"
     },
     {
         "tema": "Summertime Sadness",
@@ -14,6 +22,10 @@
     {
         "tema": "Creep",
         "url": "https://www.youtube.com/embed/Irtc7pQPozY"
+    },
+    {
+        "tema": "Otro día más",
+        "url": "https://www.youtube.com/embed/Kl_axBj6aEI"
     },
     {
         "tema": "Bitter Sweet Symphony",
@@ -130,5 +142,26 @@
     {
         "tema": "Perrito Malvado",
         "url": "https://www.youtube.com/embed/JasYNAEgehM"
+    },
+    {
+        "tema": "November Rain",
+        "url": "https://www.youtube.com/embed/I7eZ4mAfbp8"
+    },
+    {
+        "tema": "Sweet Child O'Mine",
+        "url": "https://www.youtube.com/embed/1w7OgIMMRc4"
+    },
+    {
+        "tema": "Personal Jesús",
+        "url": "https://www.youtube.com/embed/i2GEOcEcRtY"
+    },
+    {
+        "tema": "Hallelujah",
+        "url": "https://www.youtube.com/embed/RSJbYWPEaxw"
+    },
+    {
+        "tema": "Cuidado que te supero",
+        "url": "https://www.youtube.com/embed/k7M_m07Cilg"
     }
+    
 ]
